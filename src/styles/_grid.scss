@@ -1,3 +1,44 @@
 
 
-$grid: rgb(230, 215, 14);
+// items ao centro
+.item-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// items a esquerda
+.item-left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+// items direita
+.item-rigth{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+// items lado a lado
+.item-row{
+    flex-direction: row;
+    
+}
+
+// items um em baixo do outro
+.item-column{
+    flex-direction: column;    
+}
+
+.item-between{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-around{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
